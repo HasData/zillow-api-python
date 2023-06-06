@@ -39,14 +39,14 @@ print(search_result)
 In the Zillow API, there are both required and optional request parameters that you can use to customize your search. Here's an overview of the difference between the two:
 
 1. Required Parameters:
-- keyword (string): This parameter is required and is used to specify the keyword used to search for listings. It represents the search query or location you want to retrieve listings for.
-- type (enum): This parameter is required and determines the type of listing you want to retrieve. The possible values are: forSale, forRent, or sold.
+- `keyword` (string): This parameter is required and is used to specify the keyword used to search for listings. It represents the search query or location you want to retrieve listings for.
+- `type` (enum): This parameter is required and determines the type of listing you want to retrieve. The possible values are: forSale, forRent, or sold.
 
 2. Optional Parameters:
-- sort (enum): This parameter allows you to specify the sorting option for the search results. It is an optional parameter, and the possible values include various sorting criteria such as verifiedSource, homesForYou, priceHighToLow, and more.  
-- price (object): This parameter allows you to filter listings based on the price range. It is an optional parameter consisting of min and max values representing the minimum and maximum price of the listing.  
-- beds (object): This parameter enables you to filter listings based on the number of bedrooms. It is optional and includes min and max values to define the minimum and maximum number of bedrooms.  
-- baths (object): Similar to beds, this parameter allows you to filter listings based on the number of bathrooms. It is optional and includes min and max values to define the minimum and maximum number of bathrooms.
+- `sort` (enum): This parameter allows you to specify the sorting option for the search results. It is an optional parameter, and the possible values include various sorting criteria such as verifiedSource, homesForYou, priceHighToLow, and more.  
+- `price` (object): This parameter allows you to filter listings based on the price range. It is an optional parameter consisting of min and max values representing the minimum and maximum price of the listing.  
+- `beds` (object): This parameter enables you to filter listings based on the number of bedrooms. It is optional and includes min and max values to define the minimum and maximum number of bedrooms.  
+- `baths` (object): Similar to beds, this parameter allows you to filter listings based on the number of bathrooms. It is optional and includes min and max values to define the minimum and maximum number of bathrooms.
 - Several other optional parameters are available, such as yearBuilt, lotSize, squareFeet, homeTypes, etc.
 
 You can narrow your search criteria using these additional options and get listings that meet your requirements. For example, to include or exclude certain features, set price ranges, specify the number of bedrooms or bathrooms, and more.
