@@ -8,7 +8,7 @@ with open(os.path.join(here, 'zillow_api', '__version__.py'), 'r', encoding='utf
     exec(f.read(), about)
 
 setup(
-    name='zillow-api',
+    name='zillow-api-s',
     version=about['__version__'],
     url='https://github.com/Scrapeit-Cloud/zillow-api-python',
     description='Real-Time Zillow API',

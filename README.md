@@ -8,7 +8,7 @@ It makes it easy to get data such as a full address, coordinates (longitude and 
 
 ## Install
 
-`pip install zillow_api`
+`pip install zillow-api-s`
 
 ## API Key
 
