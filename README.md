@@ -4,7 +4,7 @@
 
 ## Getting real estate data from Zillow.com
 
-Zillow.com is a large online real estate marketplace where you can find properties for sale or rent. Using our real estate listing API or the No-Code [Zillow scraper](https://scrape-it.cloud/scrapers/zillow), you can retrieve public real estate listings based on specific search parameters.
+Zillow.com is a large online real estate marketplace where you can find properties for sale or rent. Using our real estate listing API or [No-Code Scraper](https://hasdata.com/scrapers/zillow) for Zillow.com, you can retrieve public real estate listings based on specific search parameters.
 
 With our API, you can collect up-to-date public real estate data without managing rotating proxies, JavaScript rendering, and the other difficulties you'd otherwise handle during development.
 
@@ -16,7 +16,7 @@ It makes it easy to get data such as a full address, coordinates (longitude and 
 
 ## API Key
 
-To use the API, you need an API key. You can get an API key and some credits for free by signing up on [Scrape-It.Cloud](https://scrape-it.cloud/).
+To use the API, you need an API key. You can get an API key and some credits for free by signing up on [HasData](https://hasdata.com/).
 
 ## Using
 
@@ -71,7 +71,7 @@ property_result = zillow_api_client.property(
 print(property_result)
 ```
 
-You can learn more about the additional options and response format on [the documentation page](https://docs.scrape-it.cloud/zillow-api/listing).
+You can learn more about the additional options and response format on [the documentation page](https://docs.hasdata.com/apis/zillow/listing).
 
 ## Use cases
 
@@ -95,4 +95,4 @@ If you need to collect public real estate data from Zillow.com and you are writi
 
 Everyone decides which option is more suitable based on the project's tasks and its requirements.
 
-If you want to know more about Zillow scraping, you can read our article about [scraping Zillow in Python](https://scrape-it.cloud/blog/scraping-zillow-using-python).
+If you want to know more about Zillow scraping, you can read our article about [scraping Zillow in Python](https://hasdata.com/blog/scraping-zillow-using-python).
