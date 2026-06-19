@@ -1,10 +1,14 @@
-## What is Zillow API
+# Real Estate Listing API for Zillow (Python)
 
-Zillow is a large online real estate marketplace where you can find all properties for sale or rent. Using the Zillow API or no-code [Zillow scraper](https://scrape-it.cloud/scrapers/zillow), you can connect to this vast database and retrieve real estate listings based on specific search parameters.
+> HasData is an independent service and is not affiliated with, endorsed by, or sponsored by Zillow Group, Inc. Zillow is a trademark of its respective owner.
 
-Using the Zillow data API, you can collect up-to-date real estate data without worrying about blockings, rotating proxies, and other difficulties you might encounter in the development process.
+## Getting real estate data from Zillow.com
 
-It makes it easy to get data such as a full address, coordinates (longitude and latitude), price, property description, and many other data characterizing the features of the property, such as the number of bedrooms and bathrooms.
+Zillow.com is a large online real estate marketplace where you can find properties for sale or rent. Using our real estate listing API or the No-Code [Zillow scraper](https://scrape-it.cloud/scrapers/zillow), you can retrieve public real estate listings based on specific search parameters.
+
+With our API, you can collect up-to-date public real estate data without managing rotating proxies, JavaScript rendering, and the other difficulties you'd otherwise handle during development.
+
+It makes it easy to get data such as a full address, coordinates (longitude and latitude), price, property description, and many other characteristics of a property, such as the number of bedrooms and bathrooms.
 
 ## Install
 
@@ -12,11 +16,11 @@ It makes it easy to get data such as a full address, coordinates (longitude and 
 
 ## API Key
 
-To use the Zillow API, you need an API key. You can get an API key and some credits for free by signing up on the [Scrape-It.Cloud](https://scrape-it.cloud/).
+To use the API, you need an API key. You can get an API key and some credits for free by signing up on [Scrape-It.Cloud](https://scrape-it.cloud/).
 
 ## Using
 
-To understand how to use Zillow API, look at this Zillow API example:
+To understand how to use the API, look at this example:
 
 ```python
 from zillow_api import ZillowAPI
@@ -36,7 +40,7 @@ search_result = zillow_api_client.search(
 print(search_result)
 ```
 
-In the Zillow API, there are both required and optional request parameters that you can use to customize your search. Here's an overview of the difference between the two:
+In the API, there are both required and optional request parameters that you can use to customize your search. Here's an overview of the difference between the two:
 
 1. Required Parameters:
 - `keyword` (string): This parameter is required and is used to specify the keyword used to search for listings. It represents the search query or location you want to retrieve listings for.
@@ -69,26 +73,26 @@ print(property_result)
 
 You can learn more about the additional options and response format on [the documentation page](https://docs.scrape-it.cloud/zillow-api/listing).
 
-## Zillow API use cases
+## Use cases
 
-The Zillow API has many use cases for developers, businesses, and individuals in the real estate industry. For example, you can use the Zillow API to gather data on real estate trends, market values, and property information.
+Our real estate listing API has many use cases for developers, businesses, and individuals in the real estate industry. For example, you can gather data on real estate trends, market values, and property information.
 
-You can also use the Zillow API to provide location-based services, such as nearby amenities, schools, transportation options, etc. This can help people make informed decisions about the suitability of a property based on its surroundings.
+You can also use the API to provide location-based services, such as nearby amenities, schools, transportation options, etc. This can help people make informed decisions about the suitability of a property based on its surroundings.
 
-Using the Zillow API to gain insights into market trends, demographics, and real estate statistics is useful for market research firms.
+Using the API to gain insights into market trends, demographics, and real estate statistics is useful for market research firms.
 
-## Zillow Python API for Real Estate Scraping
+## Real estate data extraction with Python
 
-Python is one of the most popular programming languages for web scraping and data processing. Therefore, you can create a multifunctional tool for working and processing real estate data using the Python Zillow API.
+Python is one of the most popular programming languages for web scraping and data processing. You can build a multifunctional tool for working with and processing real estate data using our Python library.
 
-## Proxy or Zillow API
+## Build it yourself or use our API
 
-If you need to collect real estate data from Zillow and you are writing your own scraper, you have two options:
+If you need to collect public real estate data from Zillow.com and you are writing your own scraper, you have two options:
 
-1. Research the structure of Zillow and write your own algorithm to collect data. Here, you will need to use a proxy to avoid blocking. You may also need to plug in captcha services.
-    
-2. Use Zillow API for Python. You don't need to use proxies here since API already uses them.
+1. Research the structure of Zillow.com and write your own algorithm to collect data. Here you would manage proxies and JavaScript rendering yourself.
 
-Everyone decides which option is more suitable for him based on the tasks of the project and its requirements.
+2. Use our real estate listing API for Python. You don't need to manage proxies here, since the API already handles them.
 
-If you want to know more about Zillow scraping, you can read our article about [Zillow scraping in Python](https://scrape-it.cloud/blog/scraping-zillow-using-python).
+Everyone decides which option is more suitable based on the project's tasks and its requirements.
+
+If you want to know more about Zillow scraping, you can read our article about [scraping Zillow in Python](https://scrape-it.cloud/blog/scraping-zillow-using-python).
