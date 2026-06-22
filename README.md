@@ -1,3 +1,7 @@
+# Real Estate Listing API for Zillow
+
+_HasData is an independent service, not affiliated with, endorsed by, or sponsored by Zillow Group, Inc. Zillow is a trademark of its respective owner._
+
 ## What is Zillow API
 
 Zillow is a large online real estate marketplace where you can find all properties for sale or rent. Using the Zillow API or no-code [Zillow scraper](https://scrape-it.cloud/scrapers/zillow), you can connect to this vast database and retrieve real estate listings based on specific search parameters.
