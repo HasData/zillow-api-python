@@ -1,10 +1,10 @@
-# Real Estate Listing API for Zillow (Python)
+# Zillow API (Python)
 
 > HasData is an independent service and is not affiliated with, endorsed by, or sponsored by Zillow Group, Inc. Zillow is a trademark of its respective owner.
 
 ## Getting real estate data from Zillow.com
 
-Zillow.com is a large online real estate marketplace where you can find properties for sale or rent. Using our real estate listing API or [No-Code Scraper](https://hasdata.com/scrapers/zillow) for Zillow.com, you can retrieve public real estate listings based on specific search parameters.
+Zillow.com is a large online real estate marketplace where you can find properties for sale or rent. Using our Zillow API or [No-Code Scraper](https://hasdata.com/scrapers/zillow) for Zillow.com, you can retrieve public real estate listings based on specific search parameters.
 
 With our API, you can collect up-to-date public real estate data without managing rotating proxies, JavaScript rendering, and the other difficulties you'd otherwise handle during development.
 
@@ -75,7 +75,7 @@ You can learn more about the additional options and response format on [the docu
 
 ## Use cases
 
-Our real estate listing API has many use cases for developers, businesses, and individuals in the real estate industry. For example, you can gather data on real estate trends, market values, and property information.
+Our Zillow API has many use cases for developers, businesses, and individuals in the real estate industry. For example, you can gather data on real estate trends, market values, and property information.
 
 You can also use the API to provide location-based services, such as nearby amenities, schools, transportation options, etc. This can help people make informed decisions about the suitability of a property based on its surroundings.
 
@@ -91,7 +91,7 @@ If you need to collect public real estate data from Zillow.com and you are writi
 
 1. Research the structure of Zillow.com and write your own algorithm to collect data. Here you would manage proxies and JavaScript rendering yourself.
 
-2. Use our real estate listing API for Python. You don't need to manage proxies here, since the API already handles them.
+2. Use our Zillow API for Python. You don't need to manage proxies here, since the API already handles them.
 
 Everyone decides which option is more suitable based on the project's tasks and its requirements.
 
