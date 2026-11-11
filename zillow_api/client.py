@@ -1,8 +1,8 @@
 import requests
 from urllib.parse import urlencode
 
-ZILLOW_LISTING_API = 'https://api.scrape-it.cloud/zillow/listing'
-ZILLOW_PROPERTY_API = 'https://api.scrape-it.cloud/zillow/property'
+ZILLOW_LISTING_API = 'https://api.hasdata.com/scrape/zillow/listing'
+ZILLOW_PROPERTY_API = 'https://api.hasdata.com/scrape/zillow/property'
 
 class ZillowAPI:
     def __init__(self, apiKey=None):
